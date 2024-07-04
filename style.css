@@ -1,8 +1,10 @@
-@font-face {
-    font-family: RobotoSlab;
-    src: url("rsschool-cv/assets/fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf")
-}
-@font-face {
-    font-family: RobotoSlab;
-    src: url("rsschool-cv/assets/fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf");
+body {
+    @font-face {
+        font-family: RobotoSlab;
+        src: url("rsschool-cv/assets/fonts/Roboto_Slab/static/");
+        font-weight: 1;
+    }
+    }
+h1 {
+    font: 'Roboto_Slab-Light'  30px;
 }
