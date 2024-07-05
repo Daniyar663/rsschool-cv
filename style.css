@@ -1,12 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
 body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
   font-family: "Montserrat", sans-serif;
 }
-#chart-container{
-position: relative;
-margin: 0px 300px 400px ;
-width: 12px;
-}
-#myChart{
-  max-width: 10%;
-  height: auto;
+footer {
+  display: flex;
+  background-color: #152F4D;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 5px;
+  
+  .footer-github{
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    }
+  .git-name{
+    color:#ffffff
+    }
+  .footer-year{
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    }
 }
