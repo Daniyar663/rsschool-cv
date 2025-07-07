@@ -110,3 +110,16 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+ul.phone-mail-loc {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.phone-mail-loc li img {
+    width: 24px;
+    margin-right: 8px;
+}
+ul.phone-mail-loc li {
+    display: flex;
+    align-items: center;
+}
