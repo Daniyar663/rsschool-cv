@@ -8,9 +8,6 @@
 </head>
 <body>
     <header>
-        <div class="main-photo">
-            <img src="\assets\img\dfe48fc3-1cfe-47f5-acd6-4eb6c907a7ca.jpeg" alt="profile-photo" width="205" height="205">
-        </div>
         <div class="navig">
         <nav>
             <ul>
@@ -24,16 +21,19 @@
             </ul>
         </nav>
         </div>
-        <div class="title-cv">
-        <h1>Sabenov Daniyar</h1>
-        <h2>Curriculum Vitae</h2>
-        </div>
     </header>
     <main>
-        <div class="contacts">
+        <div class="main-photo-titlecv">
+            <img class="profile" src="\assets\img\dfe48fc3-1cfe-47f5-acd6-4eb6c907a7ca.jpeg" alt="profile-photo" width="205" height="205">
+            <h1>Sabenov Daniyar</h1>
+            <h2>Curriculum Vitae</h2>
+        </div>
+    <div class="contacts-skills-word">
         <section class="contacts" id="contact">
+            <h1>Sabenov Daniyar</h1>
+            <h2>Curriculum Vitae</h2>
             <h3>Contact Information</h3>
-            <ul>
+            <ul class="contacts">
                 <li>
                     Phone number: +7 775 996 2963
                 </li>
@@ -45,24 +45,25 @@
                 </li>
             </ul>
         </section>
-        </div>
-        <section class="about-me" id="about">
-            <h3>About me</h3>
-            <p>I am a motivated junior developer with a strong desire to grow and improve in the field of   software development. I enjoy learning new technologies, working on real-world projects, and solving problems through clean and efficient code.</p>
-        </section>
         <section class="skills" id="skill">
             <h3>Skills</h3>
             <p>HTML, CSS, Figma, Canva, Tilda and WordPress</p>
+        </section>
+        <section class="work-experience" id="experience">
+            <h3>Work Experience</h3>
+            <p>2017-2025 Lawyer</p>
+        </section>
+     </div>
+     <div class="about">
+        <section class="about-me" id="about">
+            <h3>About me</h3>
+            <p>I am a motivated junior developer with a strong desire to grow and improve in the field of   software development. I enjoy learning new technologies, working on real-world projects, and solving problems through clean and efficient code.</p>
         </section>
         <section class="code-example" id="code">
             <h3>Code example</h3>
             <pre><code>
             &lt;head&gt;Helllo, world!&lt;head&gt;
             </code></pre>
-        </section>
-        <section class="work-experience" id="experience">
-            <h3>Work Experience</h3>
-            <p>2017-2025 Lawyer</p>
         </section>
         <section class="education" id="edu">
             <h3>Education</h3>
@@ -84,6 +85,7 @@
             <h3>English Proficiency</h3>
             <p>A2 Elementary</p>
         </section>
+     </div>
     </main>
     <footer></footer>
 </body>
