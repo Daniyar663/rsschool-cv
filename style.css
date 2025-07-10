@@ -1,125 +1,35 @@
-.montserrat-alternates-thin {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+:root{
+  --main-text-color: #f5f7f2;
+  --bg-color:  #558064;
+  --header-color: #272926;
 }
 
-.montserrat-alternates-extralight {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 200;
-  font-style: normal;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.montserrat-alternates-light {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--bg-color);
+  color: var(--main-text-color);
 }
 
-.montserrat-alternates-regular {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+a{
+  text-decoration: none;
 }
 
-.montserrat-alternates-medium {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+img{
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.montserrat-alternates-semibold {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.montserrat-alternates-bold {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.montserrat-alternates-extrabold {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.montserrat-alternates-black {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.montserrat-alternates-thin-italic {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.montserrat-alternates-extralight-italic {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.montserrat-alternates-light-italic {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.montserrat-alternates-regular-italic {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.montserrat-alternates-medium-italic {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.montserrat-alternates-semibold-italic {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.montserrat-alternates-bold-italic {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.montserrat-alternates-extrabold-italic {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.montserrat-alternates-black-italic {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
-body {
+header{
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-}
-ul.phone-mail-loc {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-ul.phone-mail-loc li img {
-    width: 24px;
-    margin-right: 8px;
-}
-ul.phone-mail-loc li {
-    display: flex;
-    align-items: center;
+  align-items: center;
+  background-color: var(--header-color);
 }
