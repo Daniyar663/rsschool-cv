@@ -1,0 +1,109 @@
+:root{
+  --main-text-color: #f5f7f2;
+  --bg-color:  #558064;
+  --header-color: #272926;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--bg-color);
+  color: var(--main-text-color);
+}
+
+img.profile{
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--header-color);
+  padding: 5px;
+  margin: 8px;
+  flex-wrap: wrap;
+}
+
+.navig ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navig a{
+  text-decoration: none;
+  color: var(--main-text-color);
+  font: 18px 'Trebuchet MS', sans-serif;
+}
+.navig a:hover{ 
+  color: var(--bg-color);
+}
+
+div.main-photo-titlecv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--header-color);
+  padding: 20px;
+  margin: 8px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+div.contacts-skills-word{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 350px;
+  padding: 20px;
+  margin-left: 8px;
+  border-style: groove;
+}
+
+.contacts ul{
+  list-style: none;
+}
+
+h1{
+  font: 45px 'Trebuchet MS', sans-serif;
+  text-align: center;
+  line-height: 10px;
+}
+h2{
+  font: 50px 'Trebuchet MS', sans-serif;
+  text-align: center;
+  line-height: 10px;
+}
+div.about{
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin-left: 20px;
+  text-align:center
+}
+div.footer-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+}
+a{
+  text-decoration: none;
+  color: var(--main-text-color);
+  font: 16px 'Trebuchet MS';
+}
+.footer{
+  background-color: var(--header-color);
+}
