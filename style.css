@@ -9,6 +9,9 @@ html {
 }
 
 body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -89,4 +92,18 @@ div.about{
   width: 1000px;
   margin-left: 20px;
   text-align:center
+}
+div.footer-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+}
+a{
+  text-decoration: none;
+  color: var(--main-text-color);
+  font: 16px 'Trebuchet MS';
+}
+.footer{
+  background-color: var(--header-color);
 }
